@@ -1,0 +1,41 @@
+* {
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    background-color: lavender;
+}
+
+.square {
+    background-color: rgb(196, 196, 255);
+    width: 900px;
+    height: 400px;
+}
+
+#field {
+    display: flex;
+}
+
+#textt {
+    display: flex;
+    width: 400px;
+    height: 20px;
+    outline: 0;
+    border: none;
+}
+
+#button {
+    display: flex;
+    margin: 0;
+}
+
+#todolist {
+    list-style-type: none;
+}
